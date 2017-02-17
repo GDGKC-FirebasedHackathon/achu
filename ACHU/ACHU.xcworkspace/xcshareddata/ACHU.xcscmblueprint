@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4FFD5C36753D264729A60C0AD074C1EDAFD18EE2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -8,12 +9,12 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "93E2E4AD-CBA4-48E7-8C2A-99F692777377",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "4FFD5C36753D264729A60C0AD074C1EDAFD18EE2" : "",
-    "311D1CC51E7D9BA61DBC624261AFD4AC3DE3D585" : ".."
+    "4FFD5C36753D264729A60C0AD074C1EDAFD18EE2" : "achu\/",
+    "311D1CC51E7D9BA61DBC624261AFD4AC3DE3D585" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ACHU",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ACHU.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ACHU\/ACHU.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ryudonghun78\/Intern_Project.git",

@@ -67,10 +67,12 @@ class ViewController: UIViewController , GIDSignInUIDelegate{
 //        }
 //    }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        userId.resignFirstResponder()
-        userPassword.resignFirstResponder()
-    }
+    
+    
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        userId.resignFirstResponder()
+//        userPassword.resignFirstResponder()
+//    }
     
     
 
