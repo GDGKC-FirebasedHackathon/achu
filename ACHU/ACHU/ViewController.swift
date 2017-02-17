@@ -52,20 +52,20 @@ class ViewController: UIViewController , GIDSignInUIDelegate{
     }
 
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        //세그먼트 전달시 LoginButton 이 눌렸을때 값을 전달한다.
-        if(LoginButton.isTouchInside==true){
-            let DestViewController : MainView = segue.destination as! MainView
-            
-            DestViewController.userID = userId.text
-            
-        }
-        //그 외의 경우
-        else{
-            //아무것도 하지 않는다
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        
+//        //세그먼트 전달시 LoginButton 이 눌렸을때 값을 전달한다.
+//        if(LoginButton.isTouchInside==true){
+//            //let DestViewController : MainView = segue.destination as! MainView
+//            
+//            //DestViewController.userID = userId.text
+//            
+//        }
+//        //그 외의 경우
+//        else{
+//            //아무것도 하지 않는다
+//        }
+//    }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         userId.resignFirstResponder()

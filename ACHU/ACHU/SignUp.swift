@@ -21,8 +21,12 @@ class SignUp : UIViewController{
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
     
+    var databaseRef : FIRDatabaseReference!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
     }
     override func didReceiveMemoryWarning() {
         
@@ -35,6 +39,13 @@ class SignUp : UIViewController{
         var age = ageTextField.text!
         
         var UserData = userData()
+//        self.databaseRef = FIRDatabase.database().reference()
+//        self.databaseRef.child("users/(user.uid)/username").setValue(name)
+
+
+        
+        
+        
         
         for userTemp in UserList{
             if(userTemp.userId == id){

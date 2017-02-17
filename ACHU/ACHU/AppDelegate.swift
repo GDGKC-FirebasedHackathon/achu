@@ -50,6 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate , GIDSignInDelegate{
                 let snapshot = snapshot.value as? NSDictionary
                 
                 if(snapshot == nil){
+                    //구글로 로그인한 데이터를 저장할 곳이다.
                     self.databaseRef.child("user_profiles").child(user!.uid).child("name").setValue(user?.displayName)
                     self.databaseRef.child("user_profiles").child(user!.uid).child("email").setValue(user?.email)
                 }
