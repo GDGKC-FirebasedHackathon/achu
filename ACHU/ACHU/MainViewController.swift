@@ -15,13 +15,13 @@ class MainViewController: UIViewController , UITableViewDataSource{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let dict1 = ["title":"보트 놀이","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"보트놀이.jpg"]
-        let dict2 = ["title":"블록 놀이","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"블록놀이.jpg"]
-        let dict3 = ["title":"카드 놀이","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"카드놀이.jpg"]
-        let dict4 = ["title":"놀이 기구","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"놀이기구.jpg"]
-        let dict5 = ["title":"자연 체험","description":"des1","beforeprice":"100 ->","afterprice":"200", "image":"자연체험.jpg"]
-        let dict6 = ["title":"레이싱","description":"des1","beforeprice":"100 ->","afterprice":"200", "image":"레이싱.jpeg"]
-        let dict7 = ["title":"음식만들기","description":"des1","beforeprice":"100 ->","afterprice":"200", "image":"음식만들기.png"]
+        let dict1 = ["title":"보트 놀이","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"보트놀이.jpg","detailDescription":"아이들이 좋아하는 물에서 보트를 타고 다른 아이들과 함께 어울릴 수 있는 액티비티 입니다."]
+        let dict2 = ["title":"블록 놀이","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"블록놀이.jpg","detailDescription":"블록을 쌓으면서 지능 발전을 할 수 있고 엄빠들이 함께 할 수 있어서 더욱 좋은 놀이"]
+        let dict3 = ["title":"카드 놀이","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"카드놀이.jpg","detailDescription":"생각하는 사고력을 길러주는 영재 특훈 액티비티"]
+        let dict4 = ["title":"놀이 기구","description":"des1","beforeprice":"100 ->","afterprice":"200","image":"놀이기구.jpg","detailDescription":"놀이기구를 타며 평소에 하지 못한걸 느끼게 하는 아이의 만족도가 매우 높은 놀이"]
+        let dict5 = ["title":"자연 체험","description":"des1","beforeprice":"100 ->","afterprice":"200", "image":"자연체험.jpg","detailDescription":"갑갑한 도시에서 벗어나 넓은 자연에서 아이들과 함께 하는 자연 체험"]
+        let dict6 = ["title":"레이싱","description":"des1","beforeprice":"100 ->","afterprice":"200", "image":"레이싱.jpeg","detailDescription":"아이들이 좋아하는 차를 타며 다른아이와의 사교성을 기를 수 있는 놀이!"]
+        let dict7 = ["title":"음식만들기","description":"des1","beforeprice":"100 ->","afterprice":"200", "image":"음식만들기.png","detailDescription":"음식을 열심히 만들면서 좋은 추억을 쌓을 수 있는 놀이 "]
 
     
         
