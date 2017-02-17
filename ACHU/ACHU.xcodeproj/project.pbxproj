@@ -7,103 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		422CA3591E56EADF00B012AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422CA3581E56EADF00B012AD /* AppDelegate.swift */; };
-		422CA35B1E56EADF00B012AD /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422CA35A1E56EADF00B012AD /* FirstView.swift */; };
-		422CA35E1E56EADF00B012AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422CA35C1E56EADF00B012AD /* Main.storyboard */; };
-		422CA3601E56EADF00B012AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422CA35F1E56EADF00B012AD /* Assets.xcassets */; };
-		422CA3631E56EADF00B012AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422CA3611E56EADF00B012AD /* LaunchScreen.storyboard */; };
-		422CA36B1E56EB9200B012AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 422CA36A1E56EB9200B012AD /* GoogleService-Info.plist */; };
-		D04FF25B0010EE962DF56D22 /* Pods_ACHU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF658D65AB3640F8839B778C /* Pods_ACHU.framework */; };
+		2C8DAD04782A5CD649BAFEEC /* Pods_ACHU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AB97193E488AECB628087E /* Pods_ACHU.framework */; };
+		422CA3E21E573DEA00B012AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 422CA3E11E573DEA00B012AD /* GoogleService-Info.plist */; };
+		4231F5211E53E6DE00E26177 /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4231F5201E53E6DE00E26177 /* userData.swift */; };
+		4231F5231E5428DA00E26177 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4231F5221E5428DA00E26177 /* SignUp.swift */; };
+		42EE76791E4F425500A849D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE76781E4F425500A849D8 /* AppDelegate.swift */; };
+		42EE767B1E4F425500A849D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE767A1E4F425500A849D8 /* ViewController.swift */; };
+		42EE767E1E4F425500A849D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE767C1E4F425500A849D8 /* Main.storyboard */; };
+		42EE76801E4F425500A849D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EE767F1E4F425500A849D8 /* Assets.xcassets */; };
+		42EE76831E4F425500A849D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE76811E4F425500A849D8 /* LaunchScreen.storyboard */; };
+		42EE768B1E4F467F00A849D8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE768A1E4F467F00A849D8 /* MainView.swift */; };
+		42EE768D1E4F51C300A849D8 /* findID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE768C1E4F51C300A849D8 /* findID.swift */; };
+		42EE768F1E4F520300A849D8 /* findPW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE768E1E4F520300A849D8 /* findPW.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D432718897B0DD37B06FA36 /* Pods-ACHU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACHU.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACHU/Pods-ACHU.release.xcconfig"; sourceTree = "<group>"; };
-		422CA3551E56EADF00B012AD /* ACHU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACHU.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		422CA3581E56EADF00B012AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		422CA35A1E56EADF00B012AD /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
-		422CA35D1E56EADF00B012AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		422CA35F1E56EADF00B012AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		422CA3621E56EADF00B012AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		422CA3641E56EADF00B012AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		422CA36A1E56EB9200B012AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BF658D65AB3640F8839B778C /* Pods_ACHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACHU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1F998B06FC9DC568EC950B8 /* Pods-ACHU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACHU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACHU/Pods-ACHU.debug.xcconfig"; sourceTree = "<group>"; };
+		422CA3DC1E57392B00B012AD /* ACHU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACHU-Bridging-Header.h"; sourceTree = "<group>"; };
+		422CA3E11E573DEA00B012AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		422CA3E31E574A8000B012AD /* ACHU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ACHU.entitlements; sourceTree = "<group>"; };
+		4231F5201E53E6DE00E26177 /* userData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
+		4231F5221E5428DA00E26177 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		42EE76751E4F425500A849D8 /* ACHU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACHU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EE76781E4F425500A849D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42EE767A1E4F425500A849D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42EE767D1E4F425500A849D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EE767F1E4F425500A849D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EE76821E4F425500A849D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EE76841E4F425500A849D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EE768A1E4F467F00A849D8 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		42EE768C1E4F51C300A849D8 /* findID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findID.swift; sourceTree = "<group>"; };
+		42EE768E1E4F520300A849D8 /* findPW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findPW.swift; sourceTree = "<group>"; };
+		6A7CF7B8958AC1B8D8D65374 /* Pods-ACHU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACHU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACHU/Pods-ACHU.debug.xcconfig"; sourceTree = "<group>"; };
+		A2AB97193E488AECB628087E /* Pods_ACHU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACHU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DAA72BB345B7BD580B8AE2 /* Pods-ACHU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACHU.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACHU/Pods-ACHU.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		422CA3521E56EADF00B012AD /* Frameworks */ = {
+		42EE76721E4F425500A849D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04FF25B0010EE962DF56D22 /* Pods_ACHU.framework in Frameworks */,
+				2C8DAD04782A5CD649BAFEEC /* Pods_ACHU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		422CA34C1E56EADF00B012AD = {
+		1416DF57341D2F028DED2962 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				422CA3571E56EADF00B012AD /* ACHU */,
-				422CA3561E56EADF00B012AD /* Products */,
-				9BC38B6CE7582C17CFDE6B12 /* Pods */,
-				9300F92D26A6AEA6865B7FC6 /* Frameworks */,
+				6A7CF7B8958AC1B8D8D65374 /* Pods-ACHU.debug.xcconfig */,
+				B2DAA72BB345B7BD580B8AE2 /* Pods-ACHU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42EE766C1E4F425500A849D8 = {
+			isa = PBXGroup;
+			children = (
+				42EE76771E4F425500A849D8 /* ACHU */,
+				42EE76761E4F425500A849D8 /* Products */,
+				1416DF57341D2F028DED2962 /* Pods */,
+				7C732154B38869A52D940B4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		422CA3561E56EADF00B012AD /* Products */ = {
+		42EE76761E4F425500A849D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				422CA3551E56EADF00B012AD /* ACHU.app */,
+				42EE76751E4F425500A849D8 /* ACHU.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		422CA3571E56EADF00B012AD /* ACHU */ = {
+		42EE76771E4F425500A849D8 /* ACHU */ = {
 			isa = PBXGroup;
 			children = (
-				422CA3581E56EADF00B012AD /* AppDelegate.swift */,
-				422CA35A1E56EADF00B012AD /* FirstView.swift */,
-				422CA35C1E56EADF00B012AD /* Main.storyboard */,
-				422CA35F1E56EADF00B012AD /* Assets.xcassets */,
-				422CA3611E56EADF00B012AD /* LaunchScreen.storyboard */,
-				422CA3641E56EADF00B012AD /* Info.plist */,
-				422CA36A1E56EB9200B012AD /* GoogleService-Info.plist */,
+				422CA3E31E574A8000B012AD /* ACHU.entitlements */,
+				42EE76781E4F425500A849D8 /* AppDelegate.swift */,
+				42EE767A1E4F425500A849D8 /* ViewController.swift */,
+				42EE768A1E4F467F00A849D8 /* MainView.swift */,
+				42EE767C1E4F425500A849D8 /* Main.storyboard */,
+				42EE767F1E4F425500A849D8 /* Assets.xcassets */,
+				42EE76811E4F425500A849D8 /* LaunchScreen.storyboard */,
+				42EE76841E4F425500A849D8 /* Info.plist */,
+				42EE768C1E4F51C300A849D8 /* findID.swift */,
+				42EE768E1E4F520300A849D8 /* findPW.swift */,
+				4231F5201E53E6DE00E26177 /* userData.swift */,
+				4231F5221E5428DA00E26177 /* SignUp.swift */,
+				422CA3DC1E57392B00B012AD /* ACHU-Bridging-Header.h */,
+				422CA3E11E573DEA00B012AD /* GoogleService-Info.plist */,
 			);
 			path = ACHU;
 			sourceTree = "<group>";
 		};
-		9300F92D26A6AEA6865B7FC6 /* Frameworks */ = {
+		7C732154B38869A52D940B4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF658D65AB3640F8839B778C /* Pods_ACHU.framework */,
+				A2AB97193E488AECB628087E /* Pods_ACHU.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9BC38B6CE7582C17CFDE6B12 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D1F998B06FC9DC568EC950B8 /* Pods-ACHU.debug.xcconfig */,
-				0D432718897B0DD37B06FA36 /* Pods-ACHU.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		422CA3541E56EADF00B012AD /* ACHU */ = {
+		42EE76741E4F425500A849D8 /* ACHU */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 422CA3671E56EADF00B012AD /* Build configuration list for PBXNativeTarget "ACHU" */;
+			buildConfigurationList = 42EE76871E4F425500A849D8 /* Build configuration list for PBXNativeTarget "ACHU" */;
 			buildPhases = (
-				8BFC2697C225D69864337155 /* [CP] Check Pods Manifest.lock */,
-				422CA3511E56EADF00B012AD /* Sources */,
-				422CA3521E56EADF00B012AD /* Frameworks */,
-				422CA3531E56EADF00B012AD /* Resources */,
-				A8D6EA95FD2C5B7CE740F017 /* [CP] Embed Pods Frameworks */,
-				DEAB757EC95071E4950EC058 /* [CP] Copy Pods Resources */,
+				C5B5DCA4C3C2B4FC1D5D2F37 /* [CP] Check Pods Manifest.lock */,
+				42EE76711E4F425500A849D8 /* Sources */,
+				42EE76721E4F425500A849D8 /* Frameworks */,
+				42EE76731E4F425500A849D8 /* Resources */,
+				1113EA03B7E31CC56C07BFBA /* [CP] Embed Pods Frameworks */,
+				1384F7D805CC3A8ED247F510 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,27 +130,33 @@
 			);
 			name = ACHU;
 			productName = ACHU;
-			productReference = 422CA3551E56EADF00B012AD /* ACHU.app */;
+			productReference = 42EE76751E4F425500A849D8 /* ACHU.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		422CA34D1E56EADF00B012AD /* Project object */ = {
+		42EE766D1E4F425500A849D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Dongheon Ryu";
 				TargetAttributes = {
-					422CA3541E56EADF00B012AD = {
+					42EE76741E4F425500A849D8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = TPS4P9TJH7;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 422CA3501E56EADF00B012AD /* Build configuration list for PBXProject "ACHU" */;
+			buildConfigurationList = 42EE76701E4F425500A849D8 /* Build configuration list for PBXProject "ACHU" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,47 +164,32 @@
 				en,
 				Base,
 			);
-			mainGroup = 422CA34C1E56EADF00B012AD;
-			productRefGroup = 422CA3561E56EADF00B012AD /* Products */;
+			mainGroup = 42EE766C1E4F425500A849D8;
+			productRefGroup = 42EE76761E4F425500A849D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				422CA3541E56EADF00B012AD /* ACHU */,
+				42EE76741E4F425500A849D8 /* ACHU */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		422CA3531E56EADF00B012AD /* Resources */ = {
+		42EE76731E4F425500A849D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422CA3631E56EADF00B012AD /* LaunchScreen.storyboard in Resources */,
-				422CA36B1E56EB9200B012AD /* GoogleService-Info.plist in Resources */,
-				422CA3601E56EADF00B012AD /* Assets.xcassets in Resources */,
-				422CA35E1E56EADF00B012AD /* Main.storyboard in Resources */,
+				42EE76831E4F425500A849D8 /* LaunchScreen.storyboard in Resources */,
+				422CA3E21E573DEA00B012AD /* GoogleService-Info.plist in Resources */,
+				42EE76801E4F425500A849D8 /* Assets.xcassets in Resources */,
+				42EE767E1E4F425500A849D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8BFC2697C225D69864337155 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		A8D6EA95FD2C5B7CE740F017 /* [CP] Embed Pods Frameworks */ = {
+		1113EA03B7E31CC56C07BFBA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,7 +204,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ACHU/Pods-ACHU-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DEAB757EC95071E4950EC058 /* [CP] Copy Pods Resources */ = {
+		1384F7D805CC3A8ED247F510 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,33 +219,53 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ACHU/Pods-ACHU-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C5B5DCA4C3C2B4FC1D5D2F37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		422CA3511E56EADF00B012AD /* Sources */ = {
+		42EE76711E4F425500A849D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				422CA35B1E56EADF00B012AD /* FirstView.swift in Sources */,
-				422CA3591E56EADF00B012AD /* AppDelegate.swift in Sources */,
+				4231F5231E5428DA00E26177 /* SignUp.swift in Sources */,
+				42EE767B1E4F425500A849D8 /* ViewController.swift in Sources */,
+				42EE768D1E4F51C300A849D8 /* findID.swift in Sources */,
+				4231F5211E53E6DE00E26177 /* userData.swift in Sources */,
+				42EE768B1E4F467F00A849D8 /* MainView.swift in Sources */,
+				42EE76791E4F425500A849D8 /* AppDelegate.swift in Sources */,
+				42EE768F1E4F520300A849D8 /* findPW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		422CA35C1E56EADF00B012AD /* Main.storyboard */ = {
+		42EE767C1E4F425500A849D8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				422CA35D1E56EADF00B012AD /* Base */,
+				42EE767D1E4F425500A849D8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		422CA3611E56EADF00B012AD /* LaunchScreen.storyboard */ = {
+		42EE76811E4F425500A849D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				422CA3621E56EADF00B012AD /* Base */,
+				42EE76821E4F425500A849D8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -243,7 +273,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		422CA3651E56EADF00B012AD /* Debug */ = {
+		42EE76851E4F425500A849D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +322,7 @@
 			};
 			name = Debug;
 		};
-		422CA3661E56EADF00B012AD /* Release */ = {
+		42EE76861E4F425500A849D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,30 +364,37 @@
 			};
 			name = Release;
 		};
-		422CA3681E56EADF00B012AD /* Debug */ = {
+		42EE76881E4F425500A849D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F998B06FC9DC568EC950B8 /* Pods-ACHU.debug.xcconfig */;
+			baseConfigurationReference = 6A7CF7B8958AC1B8D8D65374 /* Pods-ACHU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ACHU/ACHU.entitlements;
 				DEVELOPMENT_TEAM = TPS4P9TJH7;
 				INFOPLIST_FILE = ACHU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ios.ACHU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ACHU/ACHU-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		422CA3691E56EADF00B012AD /* Release */ = {
+		42EE76891E4F425500A849D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D432718897B0DD37B06FA36 /* Pods-ACHU.release.xcconfig */;
+			baseConfigurationReference = B2DAA72BB345B7BD580B8AE2 /* Pods-ACHU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ACHU/ACHU.entitlements;
 				DEVELOPMENT_TEAM = TPS4P9TJH7;
 				INFOPLIST_FILE = ACHU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ios.ACHU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ACHU/ACHU-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -365,24 +402,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		422CA3501E56EADF00B012AD /* Build configuration list for PBXProject "ACHU" */ = {
+		42EE76701E4F425500A849D8 /* Build configuration list for PBXProject "ACHU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				422CA3651E56EADF00B012AD /* Debug */,
-				422CA3661E56EADF00B012AD /* Release */,
+				42EE76851E4F425500A849D8 /* Debug */,
+				42EE76861E4F425500A849D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		422CA3671E56EADF00B012AD /* Build configuration list for PBXNativeTarget "ACHU" */ = {
+		42EE76871E4F425500A849D8 /* Build configuration list for PBXNativeTarget "ACHU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				422CA3681E56EADF00B012AD /* Debug */,
-				422CA3691E56EADF00B012AD /* Release */,
+				42EE76881E4F425500A849D8 /* Debug */,
+				42EE76891E4F425500A849D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 422CA34D1E56EADF00B012AD /* Project object */;
+	rootObject = 42EE766D1E4F425500A849D8 /* Project object */;
 }
