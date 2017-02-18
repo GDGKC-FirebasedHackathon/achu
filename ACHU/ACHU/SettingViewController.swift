@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  SettingViewController.swift
 //  ACHU
 //
 //  Created by Dongheon Ryu on 2017. 2. 18..
@@ -8,23 +8,12 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class SettingViewController: UIViewController {
 
-    @IBOutlet weak var imgView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var priceLabel: UILabel!
-
-    
-    var dataList = [String:String]()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        imgView.image=UIImage(named: dataList["image"]!)
-        titleLabel.text! = dataList["title"]!
-        descriptionLabel.text! = dataList["detailDescription"]!
-        priceLabel.text! = dataList["afterprice"]!
-        
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

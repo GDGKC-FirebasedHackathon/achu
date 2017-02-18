@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C8DAD04782A5CD649BAFEEC /* Pods_ACHU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AB97193E488AECB628087E /* Pods_ACHU.framework */; };
+		421D294B1E57CA8F00D6C0A0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421D294A1E57CA8E00D6C0A0 /* SettingViewController.swift */; };
 		422CA3E21E573DEA00B012AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 422CA3E11E573DEA00B012AD /* GoogleService-Info.plist */; };
 		426889281E575D9500B2B1B8 /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 426889211E575D9500B2B1B8 /* basket.png */; };
 		426889291E575D9500B2B1B8 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 426889221E575D9500B2B1B8 /* home.png */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		421D294A1E57CA8E00D6C0A0 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		422CA3DC1E57392B00B012AD /* ACHU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACHU-Bridging-Header.h"; sourceTree = "<group>"; };
 		422CA3E11E573DEA00B012AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		422CA3E31E574A8000B012AD /* ACHU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ACHU.entitlements; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				4268893F1E5780E500B2B1B8 /* MainViewController.swift */,
 				426889551E57B46A00B2B1B8 /* DetailViewController.swift */,
 				426889411E57857E00B2B1B8 /* CustomCell.swift */,
+				421D294A1E57CA8E00D6C0A0 /* SettingViewController.swift */,
 				42EE767F1E4F425500A849D8 /* Assets.xcassets */,
 				42EE76811E4F425500A849D8 /* LaunchScreen.storyboard */,
 				42EE76841E4F425500A849D8 /* Info.plist */,
@@ -304,6 +307,7 @@
 				426889561E57B46A00B2B1B8 /* DetailViewController.swift in Sources */,
 				426889421E57857E00B2B1B8 /* CustomCell.swift in Sources */,
 				426889401E5780E500B2B1B8 /* MainViewController.swift in Sources */,
+				421D294B1E57CA8F00D6C0A0 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

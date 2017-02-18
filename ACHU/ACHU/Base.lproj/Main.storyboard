@@ -128,7 +128,38 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="4YB-zp-ecc"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="A1C-Md-B7h"/>
+                                    <barButtonItem title="Home" id="4YB-zp-ecc">
+                                        <connections>
+                                            <action selector="homeAction:" destination="tvr-v1-e6L" id="wc4-0t-Ic9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fx4-5K-YpE"/>
+                                    <barButtonItem title="List" id="qn1-ya-GeP">
+                                        <connections>
+                                            <action selector="listAction:" destination="tvr-v1-e6L" id="YiV-s2-UjI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="wMz-zD-cek"/>
+                                    <barButtonItem title="Cart" id="C7I-xU-MQm">
+                                        <connections>
+                                            <action selector="cartAction:" destination="tvr-v1-e6L" id="Xl2-rZ-H44"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TL8-zh-D2I"/>
+                                    <barButtonItem title="My" id="tnm-LF-DCb">
+                                        <connections>
+                                            <action selector="myAction:" destination="tvr-v1-e6L" id="E6E-YD-L7V"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XGP-ld-sx9"/>
+                                    <barButtonItem title="Setting" id="HZN-8M-J9x">
+                                        <connections>
+                                            <action selector="settingAction:" destination="tvr-v1-e6L" id="SFv-ty-Tak"/>
+                                            <segue destination="qOM-kp-Agd" kind="show" id="H3Z-I6-g6r"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bEG-LA-PVZ"/>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -141,6 +172,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYC-XW-0Uj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="900" y="125.4872563718141"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="nDz-jl-gTo">
+            <objects>
+                <viewController id="qOM-kp-Agd" customClass="SettingViewController" customModule="ACHU" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DZ3-xs-1gX"/>
+                        <viewControllerLayoutGuide type="bottom" id="mjT-f8-cLM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MVd-ex-Vak">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="알림 메시지" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaE-0Q-TFW">
+                                <rect key="frame" x="44" y="100" width="114" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vZ5-fA-Bmc">
+                                <rect key="frame" x="269" y="109" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekO-HR-lac">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="trO-Gt-6zU"/>
+                                    <barButtonItem title="Home" id="gJx-C5-QmS">
+                                        <connections>
+                                            <action selector="homeAction:" destination="tvr-v1-e6L" id="57a-OT-ZN3"/>
+                                            <segue destination="tvr-v1-e6L" kind="show" id="1Pe-zp-QZ2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="G3j-IY-zgX"/>
+                                    <barButtonItem title="List" id="tn3-Pb-1A4">
+                                        <connections>
+                                            <action selector="listAction:" destination="tvr-v1-e6L" id="PAo-WI-lzr"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="thx-uh-wfC"/>
+                                    <barButtonItem title="Cart" id="K1L-Zo-oyn">
+                                        <connections>
+                                            <action selector="cartAction:" destination="tvr-v1-e6L" id="DFy-Hu-o4m"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="oQG-QT-rbp"/>
+                                    <barButtonItem title="My" id="NkP-bH-Dc0">
+                                        <connections>
+                                            <action selector="myAction:" destination="tvr-v1-e6L" id="VFD-P4-N3B"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="469-wl-FeQ"/>
+                                    <barButtonItem title="Setting" id="ldq-CK-YzD">
+                                        <connections>
+                                            <action selector="settingAction:" destination="tvr-v1-e6L" id="xpQ-J5-Gwx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1Ha-Op-iFt"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQU-tu-VNh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1322.4000000000001" y="786.65667166416802"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="FYg-3j-HT3">
@@ -167,21 +267,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fna-gN-bPu">
-                                <rect key="frame" x="16" y="446" width="101" height="65"/>
+                                <rect key="frame" x="16" y="414" width="101" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vp5-of-aQW">
-                                <rect key="frame" x="125" y="476" width="141" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8C-GP-4Hg">
-                                <rect key="frame" x="16" y="519" width="359" height="148"/>
+                                <rect key="frame" x="125" y="445" width="141" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -191,12 +284,62 @@
                                 <rect key="frame" x="274" y="414" width="101" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="예약하기"/>
+                                <connections>
+                                    <action selector="reservationButtonAction:" destination="BOe-41-zSz" eventType="touchUpInside" id="71O-FB-AYK"/>
+                                </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZgY-lp-ahg">
+                                <rect key="frame" x="0.0" y="487" width="254" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AoX-X0-vuk">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Ks2-wu-Vtn"/>
+                                    <barButtonItem title="Home" id="dA7-sB-rVu">
+                                        <connections>
+                                            <action selector="homeAction:" destination="tvr-v1-e6L" id="ysN-px-WZK"/>
+                                            <segue destination="tvr-v1-e6L" kind="show" id="ADA-ET-9gU"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8Zt-fW-Hlt"/>
+                                    <barButtonItem title="List" id="oha-Wr-vzB">
+                                        <connections>
+                                            <action selector="listAction:" destination="tvr-v1-e6L" id="rDB-zS-YaZ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="ctN-FF-ZQ4"/>
+                                    <barButtonItem title="Cart" id="4dt-ph-jkf">
+                                        <connections>
+                                            <action selector="cartAction:" destination="tvr-v1-e6L" id="58S-q8-aZz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="FLg-YH-RJP"/>
+                                    <barButtonItem title="My" id="h9R-vD-7A6">
+                                        <connections>
+                                            <action selector="myAction:" destination="tvr-v1-e6L" id="Kl1-SF-Wcy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="McU-jZ-Zt3"/>
+                                    <barButtonItem title="Setting" id="ZBK-Ki-QSQ">
+                                        <connections>
+                                            <action selector="settingAction:" destination="tvr-v1-e6L" id="BnU-Aj-7jB"/>
+                                            <segue destination="qOM-kp-Agd" kind="show" id="9NE-ND-dcz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Emx-oa-WdT"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="descriptionLabel" destination="B8C-GP-4Hg" id="UAO-B5-EHR"/>
+                        <outlet property="descriptionView" destination="ZgY-lp-ahg" id="lBZ-oO-XOk"/>
                         <outlet property="imgView" destination="8eE-IR-Rub" id="ZnK-pH-SKt"/>
                         <outlet property="priceLabel" destination="vp5-of-aQW" id="Z3P-pZ-aLQ"/>
                         <outlet property="titleLabel" destination="fna-gN-bPu" id="nCr-0h-AnO"/>
@@ -204,10 +347,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c7r-Yd-jUG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1804" y="125"/>
+            <point key="canvasLocation" x="1804" y="124.58770614692655"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="uSI-oc-1CP"/>
+        <segue reference="1Pe-zp-QZ2"/>
+        <segue reference="H3Z-I6-g6r"/>
     </inferredMetricsTieBreakers>
 </document>

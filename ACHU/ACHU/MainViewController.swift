@@ -79,6 +79,18 @@ class MainViewController: UIViewController , UITableViewDataSource, UITableViewD
         }
 
     }
+    @IBAction func homeAction(_ sender: Any) {
+    }
+    @IBAction func listAction(_ sender: Any) {
+    }
+    @IBAction func cartAction(_ sender: Any) {
+    }
+    @IBAction func myAction(_ sender: Any) {
+    }
+    @IBAction func settingAction(_ sender: Any) {
+    }
+   
+
     
     
 
