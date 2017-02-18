@@ -25,6 +25,7 @@
 		426889461E578F6200B2B1B8 /* 음식만들기.png in Resources */ = {isa = PBXBuildFile; fileRef = 426889431E578F6200B2B1B8 /* 음식만들기.png */; };
 		426889471E578F6200B2B1B8 /* 레이싱.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 426889441E578F6200B2B1B8 /* 레이싱.jpeg */; };
 		426889481E578F6200B2B1B8 /* 자연체험.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426889451E578F6200B2B1B8 /* 자연체험.jpg */; };
+		426889561E57B46A00B2B1B8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426889551E57B46A00B2B1B8 /* DetailViewController.swift */; };
 		42EE76791E4F425500A849D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE76781E4F425500A849D8 /* AppDelegate.swift */; };
 		42EE767B1E4F425500A849D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EE767A1E4F425500A849D8 /* ViewController.swift */; };
 		42EE767E1E4F425500A849D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EE767C1E4F425500A849D8 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		426889431E578F6200B2B1B8 /* 음식만들기.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "음식만들기.png"; sourceTree = "<group>"; };
 		426889441E578F6200B2B1B8 /* 레이싱.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "레이싱.jpeg"; sourceTree = "<group>"; };
 		426889451E578F6200B2B1B8 /* 자연체험.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "자연체험.jpg"; sourceTree = "<group>"; };
+		426889551E57B46A00B2B1B8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		42EE76751E4F425500A849D8 /* ACHU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACHU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EE76781E4F425500A849D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42EE767A1E4F425500A849D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,15 +132,16 @@
 				426889201E575D8000B2B1B8 /* Resource */,
 				422CA3E31E574A8000B012AD /* ACHU.entitlements */,
 				42EE76781E4F425500A849D8 /* AppDelegate.swift */,
-				42EE767A1E4F425500A849D8 /* ViewController.swift */,
 				42EE767C1E4F425500A849D8 /* Main.storyboard */,
+				42EE767A1E4F425500A849D8 /* ViewController.swift */,
+				4268893F1E5780E500B2B1B8 /* MainViewController.swift */,
+				426889551E57B46A00B2B1B8 /* DetailViewController.swift */,
+				426889411E57857E00B2B1B8 /* CustomCell.swift */,
 				42EE767F1E4F425500A849D8 /* Assets.xcassets */,
 				42EE76811E4F425500A849D8 /* LaunchScreen.storyboard */,
 				42EE76841E4F425500A849D8 /* Info.plist */,
 				422CA3DC1E57392B00B012AD /* ACHU-Bridging-Header.h */,
 				422CA3E11E573DEA00B012AD /* GoogleService-Info.plist */,
-				4268893F1E5780E500B2B1B8 /* MainViewController.swift */,
-				426889411E57857E00B2B1B8 /* CustomCell.swift */,
 			);
 			path = ACHU;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				42EE767B1E4F425500A849D8 /* ViewController.swift in Sources */,
 				42EE76791E4F425500A849D8 /* AppDelegate.swift in Sources */,
+				426889561E57B46A00B2B1B8 /* DetailViewController.swift in Sources */,
 				426889421E57857E00B2B1B8 /* CustomCell.swift in Sources */,
 				426889401E5780E500B2B1B8 /* MainViewController.swift in Sources */,
 			);

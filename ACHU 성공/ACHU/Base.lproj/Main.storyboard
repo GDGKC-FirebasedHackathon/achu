@@ -115,7 +115,7 @@
                                             <outlet property="imgView" destination="yfR-pF-Juk" id="EDa-NE-KQR"/>
                                             <outlet property="lowPrice" destination="kbc-5T-4q0" id="Dds-Ac-oDk"/>
                                             <outlet property="titleLabel" destination="wJx-7s-nFz" id="odW-bA-CfG"/>
-                                            <segue destination="BOe-41-zSz" kind="show" id="J3W-oO-m2E"/>
+                                            <segue destination="BOe-41-zSz" kind="show" identifier="showDetail" id="J3W-oO-m2E"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -134,15 +134,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="TPo-CZ-Vc2" id="z14-eB-s6z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dYC-XW-0Uj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="900" y="125.4872563718141"/>
         </scene>
-        <!--View Controller-->
+        <!--Detail View Controller-->
         <scene sceneID="FYg-3j-HT3">
             <objects>
-                <viewController id="BOe-41-zSz" sceneMemberID="viewController">
+                <viewController id="BOe-41-zSz" customClass="DetailViewController" customModule="ACHU" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BvV-EM-vVY"/>
                         <viewControllerLayoutGuide type="bottom" id="7sx-pz-tcO"/>
@@ -192,10 +195,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="B8C-GP-4Hg" id="UAO-B5-EHR"/>
+                        <outlet property="imgView" destination="8eE-IR-Rub" id="ZnK-pH-SKt"/>
+                        <outlet property="priceLabel" destination="vp5-of-aQW" id="Z3P-pZ-aLQ"/>
+                        <outlet property="titleLabel" destination="fna-gN-bPu" id="nCr-0h-AnO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c7r-Yd-jUG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1701.5999999999999" y="124.58770614692655"/>
+            <point key="canvasLocation" x="1804" y="125"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
